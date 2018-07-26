@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/tabhost"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout
+        android:layout_marginTop="50dp"
+        android:id="@+id/tabcontent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </FrameLayout>
+    <TabWidget
+        android:layout_gravity="bottom"
+        android:id="@+id/tabs"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+    </TabWidget>
+</TabHost>
